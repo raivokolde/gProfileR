@@ -197,7 +197,7 @@ gprofiler <- function(
 		close(conn)
 	}
 	else{
-		split_query <- as.data.frame(matrix(NA, 0, 13))
+		split_query <- as.data.frame(matrix(NA, 0, 14))
 	}
 	
 	rownames(split_query) <- NULL
